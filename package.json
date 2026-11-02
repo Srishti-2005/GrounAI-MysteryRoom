@@ -1,0 +1,1 @@
+{"name":"ai-mystery-room","version":"1.0.0","private":true,"workspaces":["frontend","backend"],"scripts":{"dev":"concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"","build":"npm --prefix frontend run build","start":"npm --prefix backend run start"},"devDependencies":{"concurrently":"^9.1.2"}}
